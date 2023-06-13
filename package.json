@@ -2,13 +2,21 @@
   "name": "@modus-nx/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "devjen": "yarn nx run jenoptik:serve --configuration=development"
+  },
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.4",
     "@swc/helpers": "~0.5.0",
+    "axios": "^1.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.44.3",
     "react-is": "18.2.0",
+    "react-query": "^3.39.3",
     "react-router-dom": "6.11.2",
     "styled-components": "5.3.6",
     "tslib": "^2.3.0"
